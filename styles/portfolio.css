@@ -71,6 +71,10 @@ nav li {
     color: #757575;
     margin-bottom: 30px;
 }
+.banner a{
+    text-decoration: none;
+    color: white;
+}
 
 /* main section */
 main {
@@ -198,6 +202,10 @@ main {
 .resume-button{
     margin-top: 50px;
     text-align: center;
+}
+.resume-button a{
+    text-decoration: none;
+    color: white;
 }
 
 /* contact styles */
