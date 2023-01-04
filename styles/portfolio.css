@@ -97,10 +97,11 @@ main {
 /* about section styles */
 .about {
     margin-top: 130px;
-    background: #FFF8F3;
+    background: #f4e9de;
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .section-title {
