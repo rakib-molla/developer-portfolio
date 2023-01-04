@@ -162,6 +162,7 @@ main {
 }
 
 /* resume styles */
+
 .resume-content {
     display: flex;
     gap: 24px;
@@ -201,6 +202,7 @@ main {
 
 /* contact styles */
 .contact{
+    border-radius: 10px ;
     display: flex;
     gap: 100px;
     background: #f4e9de;
