@@ -88,27 +88,68 @@ main {
 }
 
 .section-title {
-   
+    text-align: center;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 .section-description {
     font-weight: 400;
-font-size: 18px;
-margin-bottom: 30px;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about .info-title{
+
+.about .info-title {
     font-size: 20px;
-    color:#757575
+    color: #757575
 }
-.info-description{
+
+.info-description {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+
+/* what i do styles */
+.what-i-do {
+    margin-top: 130px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.09);
+border-radius: 5px;
+padding: 30px;
+}
+.skill-title {
+    font-weight: 800px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+.what-i-do .section-description{
+    font-weight: 400;
+font-size: 18px;
+color: #757575;
+text-align: center;
+padding: 20px;
+
 }
